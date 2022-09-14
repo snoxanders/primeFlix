@@ -54,3 +54,36 @@
     height: 50px;
     margin-left: 0;
 }
+
+
+@media (max-width: 600px) {
+    .meus-filmes{
+        height: calc(100vh - -165px);
+        width: 100vh;
+        max-width: 100%;
+       color: blue;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   
+    }
+}
+@media (max-width: 600px) {
+    .img-favoritos{
+       width: 0px;
+       height: 0px;
+   
+    }
+}
+
+@media (max-width: 600px) {
+    .meus-filmes ul li{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   
+    }
+}
+
+
+ 
